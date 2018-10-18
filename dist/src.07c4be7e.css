@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 선택할 수 있는 랜덤컬러 3가지 */
+.option {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px; }
+
+/* 정답 혹은 오답일 때 화면에 띄어지는 모달 */
+.right-modal {
+  display: none; }
+
+.wrong-modal {
+  display: none; }
+
+/* 자바스크립트로 모달에 적용할 스타일 */
+.right-modal.open {
+  display: block; }
+
+.wrong-modal.open {
+  display: block; }
