@@ -16,23 +16,30 @@
       <!-- 점수표기를 위한 코드 -->
       <div class="score">SCORE : 0</div>
 
-      <!-- 정답 컬러 -->
-      <div class="color-text"></div>
+      <!-- 정답 컬러 + 랜덤컬러를 감싸는 div -->
+      <div class="option-container">
 
-      <!-- 선택할 수 있는 랜덤컬러 3가지 -->
-      <div class="option"></div>
-      <div class="option"></div>
-      <div class="option"></div>
 
-      <!-- 정답 혹은 오답일 때 화면에 띄어지는 모달 -->
-      <div class="right-modal">
-        THAT'S RIGHT!
-        <button class="next-stage">NEXT STAGE</button>
+        <!-- 정답 컬러 -->
+        <div class="color-text"></div>
+
+        <!-- 선택할 수 있는 랜덤컬러 3가지 -->
+        <div class="option"></div>
+        <div class="option"></div>
+        <div class="option"></div>
       </div>
-      <div class="wrong-modal">
-        TOO BAD! :(
-        <div>SCORE : <span class="score-in-modal"></span></div>
-        <button class="play-again">PLAY AGAIN</button>
+      <!-- 정답 혹은 오답일 때 화면에 띄어지는 모달 -->
+      <div class="overlay">
+        <div class="right-modal">
+          THAT'S RIGHT!
+          <br>
+          <button class="next-stage">NEXT STAGE</button>
+        </div>
+        <div class="wrong-modal">
+          TOO BAD! :(
+          <div>SCORE : <span class="score-in-modal"></span></div>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
       </div>
     </div>
   </div>
