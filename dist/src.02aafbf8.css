@@ -43,6 +43,7 @@ ul {
   list-style-type: none; }
 
 .wrapper {
+  position: relative;
   color: #fff;
   text-align: center;
   overflow: hidden;
@@ -92,9 +93,14 @@ ul {
   margin: 0 10px; }
 
 .right-modal {
-  font-size: 3rem;
-  font-weight: 700;
-  display: none; }
+  display: none;
+  position: absolute;
+  background: pink;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9; }
 
 .next-stage {
   margin-top: 50px;
